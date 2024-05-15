@@ -15,20 +15,4 @@ include::{snippets}/get-member/http-request.adoc[]
 === Response
 include::{snippets}/get-member/http-response.adoc[]
 
-
-include::{snippets}/get-member/curl-request.adoc[]
-include::{snippets}/get-member/httpie-request.adoc[]
-include::{snippets}/get-member/request-body.adoc[]
-include::{snippets}/get-member/response-body.adoc[]
 include::{snippets}/get-member/response-fields.adoc[]
-
-// 자동으로 구분성 생성됨
-
-== 회원 가져오기2회원 가져오기2회원 가져오기2회원 가져오기2회원 가져오기2회원 가져오기2
-
-=== Request
-include::{snippets}/get-member/http-request.adoc[]
-
-=== Response
-include::{snippets}/get-member/http-response.adoc[]
-

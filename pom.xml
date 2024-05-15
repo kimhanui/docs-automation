@@ -96,13 +96,15 @@
                     <goals>
                         <goal>copy-resources</goal>
                     </goals>
+                    <!-- mvn install시 -->
                     <configuration>
-                        <!-- doc이 static/docs밑으로 배포됨 -->
+                        <!-- target/classes/static/docs 하위로 생성 -->
                         <outputDirectory>
                             ${project.build.outputDirectory}/static/docs
                         </outputDirectory>
                         <resources>
                             <resource>
+                                <!-- target/generated-docs 하위로 생성 -->
                                 <directory>
                                     ${project.build.directory}/generated-docs
                                 </directory>
