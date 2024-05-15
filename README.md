@@ -14,7 +14,7 @@ API 문서 생성하기
 
 ## How to work
 1) 테스트 코드로 API 요청/응답 예시 작성 (코드: [MemberControllerTest.java](src%2Ftest%2Fjava%2Forg%2Fexample%2FMemberControllerTest.java)[](src/main/test/org/example/member/MemberControllerTest.class))
-2) 프로젝트 빌드시 문서가 .adoc 확장자로 생성됨 (경로: src/asciidoc 하위)
+2) 테스트 코드 실행 시 문서가 .adoc 확장자로 생성됨 (경로: src/asciidoc 하위)
 3) `mvn install`시 ascii-doctor에 의해 문서가 .adoc -> .html 변환됨. (경로: target/generated-docs 하위)
 
 ## Feedback
