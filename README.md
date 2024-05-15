@@ -1,6 +1,6 @@
 # API 문서 자동화
 Spring REST Docs 로 문서 자동화  
-생성된 문서 미리보기: [get-member.html](result-docs%2Fget-member.html)
+생성된 문서 미리보기: [get-member.html](https://htmlpreview.github.io/?https://github.com/kimhanui/docs-automation/blob/main/result-docs/get-member.html)
 
 > 프로젝트 스펙: spring boot 3.2.5 , maven 3.9.6 ([셋팅 가이드 참고](https://berrrrr.github.io/programming/2021/01/24/how-to-use-spring-rest-docs/))
 
