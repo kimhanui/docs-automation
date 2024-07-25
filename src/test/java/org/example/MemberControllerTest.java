@@ -34,7 +34,7 @@ public class MemberControllerTest {
                 .build();
     }
 
-    // generated-snippets 하위에 document() 파라미터 값에 해당하는 경로로 코드 스니펫 만듦
+    // generated-snippets 하위에 아래 static 메서드 document 파라미터 identifier로 코드 스니펫 만듦
     @Test
     public void getTestTest() throws Exception {
         this.mockMvc.perform(MockMvcRequestBuilders.get("/member/v1.0")
