@@ -17,11 +17,6 @@ Spring REST Docs 로 문서 자동화
 4) `mvn install`
    > maven의 경우, src/main/asciidoc/*.adoc 에 adoc(asciidoc)을 작성하면 maven install시 target/generated-docs/*.html 에 html 파일이 생성된다. (ex: target/generated-docs/api-doc.html)
 
-
-## How to work
-1) 테스트 코드로 API 요청/응답 예시 작성 (코드: [MemberControllerTest.java](src%2Ftest%2Fjava%2Forg%2Fexample%2FMemberControllerTest.java)[](src/main/test/org/example/member/MemberControllerTest.class))
-2) API 문서 생성
-
 ## Feedback
 - adoc 문법의 장점: 각 API 문서를 include해서 재활용가능
 - 문서 가시성: 요청/응답 데이터 구조, 예시 가시성 좋음
